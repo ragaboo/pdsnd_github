@@ -8,8 +8,10 @@ Bikeshare Combined Python and Git Project
 My Udacity Python course project, relating to data analysis of a bikeshare program. Using Git to manage.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Forked this repo: https://github.com/udacity/pdsnd_github
