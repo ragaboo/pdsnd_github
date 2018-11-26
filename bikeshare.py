@@ -22,7 +22,7 @@ def get_filters():
         city = input("Which city\'s bikeshare data would you like to analyze? (Chicago, New York City, or Washington) ").lower()
         if city.lower() in CITY_DATA.keys():
             break
-        print("{} ain\'t no city I've ever heard of. Do they speak English in {}? (We didn\'t understand your input. Please try again.)".format(city, city))
+        print("{} doesn\'t appear to be a city we have data on. Please try again.".format(city, city))
 
     # TO DO: get user input for month (all, january, february, ... , june)
     month = None
@@ -162,7 +162,7 @@ def raw_data(df):
     start = 0
     end = 5
     while True:
-        show_raw = input("Would you like to see the raw dataset (in 5-row increments)? Type \"yes\" or \"no\". ").lower()
+        show_raw = input("Would you like to see the full dataset (in 5-row increments)? Type \"yes\" or \"no\". ").lower()
         if show_raw.lower() in ['yes', 'no']:
             break
         print("We didn't understand. Try again? \n")
@@ -186,7 +186,7 @@ def main():
         user_stats(df)
         raw_data(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to start this program over? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
