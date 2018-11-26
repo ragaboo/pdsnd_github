@@ -5,7 +5,7 @@ November 25, 2018
 Bikeshare Combined Python and Git Project
 
 ### Description
-Describe what your project is about and what it does
+My Udacity Python course project, relating to data analysis of a bikeshare program. Using Git to manage.
 
 ### Files used
 Include the files used
