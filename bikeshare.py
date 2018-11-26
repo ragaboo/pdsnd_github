@@ -162,7 +162,7 @@ def raw_data(df):
     start = 0
     end = 5
     while True:
-        show_raw = input("Would you like to see the raw dataset (in 5-row increments)? Type \"yes\" or \"no\". ").lower()
+        show_raw = input("Would you like to see the full dataset (in 5-row increments)? Type \"yes\" or \"no\". ").lower()
         if show_raw.lower() in ['yes', 'no']:
             break
         print("We didn't understand. Try again? \n")
