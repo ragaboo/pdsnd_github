@@ -22,7 +22,7 @@ def get_filters():
         city = input("Which city\'s bikeshare data would you like to analyze? (Chicago, New York City, or Washington) ").lower()
         if city.lower() in CITY_DATA.keys():
             break
-        print("{} ain\'t no city I've ever heard of. Do they speak English in {}? (We didn\'t understand your input. Please try again.)".format(city, city))
+        print("{} doesn\'t appear to be a city we have data on. Please try again.".format(city, city))
 
     # TO DO: get user input for month (all, january, february, ... , june)
     month = None
